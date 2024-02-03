@@ -40,7 +40,7 @@ export default function App() {
         <Description />
       </div>
 
-      <div className="lg:gap-10 gap-2 flex flex-col lg:p-16 lg:m-10 p-5 m-2 bg-[#e5e5e5]/50 rounded-xl shadow-lg backdrop-blur-md">
+      <div className="lg:gap-10 gap-2 flex flex-col justify-between lg:p-16 lg:m-10 p-5 m-2 bg-[#e5e5e5]/50 rounded-xl shadow-lg backdrop-blur-md">
         <PackingList
           items={items}
           onDeleteItem={handleDeleteItem}
